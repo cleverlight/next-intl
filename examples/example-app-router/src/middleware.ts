@@ -5,7 +5,14 @@ export default createMiddleware({
   defaultLocale: 'en',
   locales,
   pathnames,
-  localePrefix
+  localePrefix: 'always',
+  domains: [
+    {
+      domain: 'localhost',
+      defaultLocale: 'it',
+      locales
+    }
+  ]
 });
 
 export const config = {
