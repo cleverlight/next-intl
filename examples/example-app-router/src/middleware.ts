@@ -9,7 +9,7 @@ export default createMiddleware({
   domains: [
     {
       domain: 'localhost',
-      defaultLocale: 'it',
+      defaultLocale: 'de',
       locales
     }
   ]
